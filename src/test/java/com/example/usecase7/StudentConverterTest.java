@@ -75,6 +75,6 @@ public class StudentConverterTest {
 
     @Test
     void nullInputTest() {
-        assertThrows(Exception.class, () -> converter.convertStudents(null));
+        assertThrows(NullPointerException.class, () -> converter.convertStudents(null));
     }
 }

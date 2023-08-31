@@ -1,7 +1,5 @@
 package com.example.usecase7;
 
-import lombok.Getter;
-
 public class Student {
 
     private String name;
@@ -64,9 +62,13 @@ public class Student {
     }
 
     private int age;
+
     private int grade;
+
     private boolean exceptional;
+
     private boolean honorRoll;
+
     private boolean passed;
 
 }
